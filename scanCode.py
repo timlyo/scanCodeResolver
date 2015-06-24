@@ -22,8 +22,6 @@ reads codes from /usr/include/linux/input.h for stuff and such
 import re
 import sys
 
-caching = False
-
 def name_from_key(key):
     """ get the name(e.g. KEY_ESC) of the button from the key(number)
     :param code: int of key code
